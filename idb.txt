@@ -1,0 +1,127 @@
+    (‘TP055555’, ‘(459) 749-4376', ‘suarez@gmail.com’, ‘012465816’, ‘Maeve Suarez’, ‘APD1F2009ACS’), 
+
+    (‘TP055556’, ‘(338) 303-1453’, ‘greene@gmail.com’, ‘01246sdfw’, ‘Madison Greene’, ‘APD1F2009CE’), 
+
+    (‘TP055557’, ‘(391) 315-6918’, ‘mcclain@gmail.com’, ‘01248548’, ‘Amiyah Mcclain’, ‘APD1F2009ACS’), 
+
+    (‘TP055558’, ‘(471) 223-9994’, ‘randall@gmail.com’, ‘012465as’, ‘Harry Randall’, ‘APD1F2009BM’), 
+
+    (‘TP055559’, ‘(471) 223-9994, ‘davies@gmail.com’, ‘012adf5816’, ‘Jacquelyn Davies’, ‘APD1F2009CS(CYB)’), 
+
+    (‘TP055560’, ‘(565) 342-4887, ‘herman@gmail.com’, ‘01dsae816’, ‘Zaid Herman’, ‘APD1F2009CGD’), 
+
+    (‘TP055561’, ‘(359) 664-8979’, ‘stevens@gmail.com’, ‘01246adf16’, ‘Chasity Stevens’, ‘APD1F2009AF’),  
+
+    (‘TP055562’, ‘(692) 636-8133', ‘blackwell@gmail.com’, ‘01aerw5816’, ‘Heath Blackwell’, ‘APD1F2009CS(CYB)’), 
+
+    (‘TP055563’, ‘(278) 338-1707', ‘hebert@gmail.com’, ‘01246aeq6’, ‘Leroy Hebert’, ‘APD1F2009CS(IS)’) 
+
+
+Book Table
+
+('B0001', 'Coders at Work: Reflections on the Craft of Programming', 'Peter Seibel', '05/06/2016', 0, 7, 'Programming', 'P0003', 50),
+('B0002', 'Code Complete: A Practical Handbook of Software Construction', 'Steve McConnell', '09/08/2012', 1, 10, 'Programming', 'P0003', 70),
+('B0003', 'Best Overall: Will It Fly? ', 'Pat Flynn', '23/11/2018', 1, 3, 'Business', 'P0002', 120),
+('B0004', 'Best for Branding: Crushing It!', 'Gary Veynerchuck', '16/03/2020', 1, 15, 'Business', 'P0006', 150),
+('B0005', 'Introduction to Computer Science Using Python', 'Charles Dierbach', '23/08/2015', 0, 9, 'Computer Science', 'P0004', 30),
+('B0006', 'JavaScript: The Good Parts', 'Douglas Crockford', '17/10/2010', 1, 3, 'Computer Science', 'P0008', 60),
+('B0007', 'The Man Who Counted', 'Malba Tahan', '01/04/2013', 1, 1, 'Math', 'P0005', 75),
+('B0008', 'The Universal History of Numbers', 'Georges Ifrah', '11/09/2019', 1, 2, 'Math', 'P0009', 75),
+('B0009', 'Nightwork', 'Nora Roberts', '02/03/2014', 0, 5, 'Fiction', 'P0007', 90),
+('B0010', 'A Brief History of Time', 'Stephen Hawking', '20/12/2018', 0, 3, 'Non fiction', 'P0001', 65)
+
+
+Review
+
+('TP55555', 'B0003', 6, 'This book is very good','2017-06-03'),
+('TP55560', 'B0004', 2, 'Very Badly Written', '2018-02-06'),
+('TP55557', 'B0005', 7, 'good book', '2018-05-20'),
+('TP55561', 'B0003', 5, NULL, '2015-12-26'),
+('TP55556', 'B0006', 8, 'very good book', '2020-09-04'),
+('TP55563', 'B0003', 1, 'Do not recommend this book', '2021-10-23'),
+('TP55562', 'B0002', 10, 'Excellent Book', '2021-02-08'),
+('TP55559', 'B0004', 8, 'Enjoyed the book', '2019-02-14'),
+('TP55557', 'B0009', 9, 'Helpful book', '2021-06-04'),
+('TP55556', 'B0005', 10, 'Best book ever written!', '2020-03-07'),
+('TP55555', 'B0001', 4, NULL, '2018-11-17'),
+
+
+
+
+Shopping Cart items
+
+
+('CS0001', 'B0002', 70, 2, 140),
+('CS0002', 'B0008', 75, 1, 75),
+('CS0003', 'B0006', 60, 4, 240),
+('CS0004', 'B0005', 30, 6, 180),
+('CS0005', 'B0009', 90, 2, 180),
+('CS0006', 'B0004',150, 1, 150),
+('CS0007', 'B0003', 75, 3, 225),
+
+
+--('CS0002', '2022-05-11', '2022-06-21', 'TP055560'),
+--('CS0003', '2022-05-03', '2022-06-24', 'TP055556'),
+--('CS0004', '2022-05-06', '2022-06-30', 'TP055558'),
+--('CS0005', '2022-05-22', '2022-06-23', 'TP055563'),
+--('CS0006', '2022-05-30', '2022-06-07', 'TP055563'),
+--('CS0007', '2022-05-21', '2022-06-21', 'TP055563'),
+--('CS0008', '2022-05-18', '2022-06-12', 'TP055556'),
+--('CS0009', '2022-05-22', '2022-06-03', 'TP055558'),
+--('CS0010', '2022-05-19', '2022-06-17', 'TP055560'),
+--('CS0011', '2022-05-23', '2022-06-25', 'TP055563'),
+--('CS0012', '2022-05-13', '2022-06-13', 'TP055560'),
+--('CS0013', '2022-05-14', '2022-06-20', 'TP055560'),
+--('CS0014', '2022-05-15', '2022-06-15', 'TP055563'),
+--('CS0015', '2022-05-16', '2022-06-12', 'TP055560'),
+--('CS0016', '2022-05-17', '2022-06-20', 'TP055563'),
+--('CS0017', '2022-05-18', '2022-06-09', 'TP055561'),
+--('CS0018', '2022-05-19', '2022-06-20', 'TP055562'),
+--('CS0019', '2022-05-21', '2022-06-10', 'TP055559'),
+--('CS0020', '2022-05-31', '2022-06-19', 'TP055559');
+
+
+UserOrder 
+  ORDER ID, Total, DATE, PaymentStatus, Payment method, shipment status, cart session ID, TP number
+('ORD0001', 0, '2022-06-21', 'Pending', 'Cash', 'arrived', 'CS0001', 'TP055555'), ---- add the TP of the CS0001 here.
+('ORD0002', 0, '2019-06-23', 'Paid', 'Cash', 'processing', 'CS0002', 'TP055560'),
+('ORD0003', 0, '2019-06-25', 'Paid', 'Card', 'arrived', 'CS0003', 'TP055556'),
+('ORD0004', 0, '2019-07-01', 'Pending', 'Card', 'shipped', 'CS0004', 'TP055558'),
+('ORD0005', 0, '2019-06-24', 'Paid', 'Cash', 'processing', 'CS0005', 'TP055563'),
+('ORD0006', 0, '2019-06-08', 'Pending', 'Card', 'shipped', 'CS0006', 'TP055563'),
+('ORD0007', 0, '2019-06-22', 'Pending', 'Card', 'arrived', 'CS0007', 'TP055563'),
+('ORD0008', 0, '2019-06-13', 'Paid', 'Card', 'shipped', 'CS0008', 'TP055556'),
+('ORD0009', 0, '2019-06-04', 'Paid', 'Cash', 'processing', 'CS0009', 'TP055558'),
+('ORD0010', 0, '2019-06-18', 'Pending', 'Cash', 'arrived', 'CS0010', 'TP055560'),
+
+
+
+
+
+--CREATE TABLE UserOrder (
+--	OrderID varchar(50) PRIMARY KEY, 
+--	OrderTotal int NOT NULL, 
+--	DatePurchased Date NOT NULL,
+--	PaymentStatus varchar(20) NOT NULL CHECK(PaymentStatus IN('Pending', 'Paid')),
+--	PaymentMethod varchar(20) NOT NULL CHECK(PaymentMethod IN('Cash', 'Card')),
+--	ShippingStatus varchar(20) NOT NULL CHECK (ShippingStatus IN('processing', 'shipped', 'arrived')),
+--	ShippingAddress varchar(50) NOT NULL,
+--	CartSessionID varchar(50) FOREIGN KEY REFERENCES ShoppingCartSession(CartSessionID) NOT NULL,
+--	TpNumber varchar(50) FOREIGN KEY REFERENCES Student(TpNumber) NOT NULL,
+--	);
+
+
+--
+
+
+Inventory table 
+
+Inventory order , book id , Quantity, Date Purchased, Shipping status, Shipping address, Unit price, Total price, Publisher id, Publisher ID
+('INV0001', 'B0001', 3, '2022-06-02', 'arrived', 'Jalan Teknologi 5, Taman Teknologi, Kuala Lumpur, Malaysia', 'add unit price here'. 'Calculated total price here', 'add publisher id here',),
+('INV0001', 'B0003', 10, '2022-05-20', 'shipped', 'Jalan Teknologi 5, Taman Teknologi, Kuala Lumpur, Malaysia', 'add unit price here'. 'Calculated total price here', 'add publisher id here',),
+('INV0001', 'B0006', 8, '2022-04-01', 'processing', 'Jalan Teknologi 5, Taman Teknologi, Kuala Lumpur, Malaysia', 'add unit price here'. 'Calculated total price here', 'add publisher id here',),
+('INV0001', 'B0007', 12, '2022-05-23', 'arrived', 'Jalan Teknologi 5, Taman Teknologi, Kuala Lumpur, Malaysia', 'add unit price here'. 'Calculated total price here', 'add publisher id here',),
+('INV0001', 'B0008', 15, '2022-04-15', 'processing', 'Jalan Teknologi 5, Taman Teknologi, Kuala Lumpur, Malaysia', 'add unit price here'. 'Calculated total price here', 'add publisher id here',),
+('INV0001', 'B0010', 13, '2022-03-26', 'shipped', 'Jalan Teknologi 5, Taman Teknologi, Kuala Lumpur, Malaysia', 'add unit price here'. 'Calculated total price here', 'add publisher id here',),
+('INV0001', 'B0005', 2, '2022-06-05', 'processing', 'Jalan Teknologi 5, Taman Teknologi, Kuala Lumpur, Malaysia', 'add unit price here'. 'Calculated total price here', 'add publisher id here',),
+
